@@ -12,26 +12,11 @@ import pay from '@/views/pay'
 import register from '@/views/register'
 import center from '@/views/center'
 
-     import users from '@/views/modules/users/list'
-    import dictionary from '@/views/modules/dictionary/list'
-    import exampaper from '@/views/modules/exampaper/list'
-    import examquestion from '@/views/modules/examquestion/list'
-    import examrecord from '@/views/modules/examrecord/list'
-    import examredetails from '@/views/modules/examredetails/list'
-    import forum from '@/views/modules/forum/list'
-    import lajixinxi from '@/views/modules/lajixinxi/list'
-    import lajixinxiLiuyan from '@/views/modules/lajixinxiLiuyan/list'
-    import news from '@/views/modules/news/list'
-    import yonghu from '@/views/modules/yonghu/list'
-    import config from '@/views/modules/config/list'
-    import dictionaryExampaper from '@/views/modules/dictionaryExampaper/list'
-    import dictionaryExamquestion from '@/views/modules/dictionaryExamquestion/list'
-    import dictionaryForumState from '@/views/modules/dictionaryForumState/list'
-    import dictionaryLajixinxi from '@/views/modules/dictionaryLajixinxi/list'
-    import dictionaryNews from '@/views/modules/dictionaryNews/list'
-    import dictionarySex from '@/views/modules/dictionarySex/list'
-
-    import adminexam from '@/views/modules/exampaper/exam'
+import users from '@/views/modules/users/list'
+import dictionary from '@/views/modules/dictionary/list'
+import yonghu from '@/views/modules/yonghu/list'
+import config from '@/views/modules/config/list'
+import dictionarySex from '@/views/modules/dictionarySex/list'
 
 
 
@@ -67,37 +52,6 @@ const routes = [{
         name: '管理信息',
         component: users
       }
-	  ,{
-	      path: '/adminexam',
-	      name: 'adminexam',
-	      component: adminexam,
-	      meta: {icon:'', title:'adminexam'}
-	    }
-    ,{
-        path: '/dictionaryExampaper',
-        name: '测评状态',
-        component: dictionaryExampaper
-    }
-    ,{
-        path: '/dictionaryExamquestion',
-        name: '试题类型',
-        component: dictionaryExamquestion
-    }
-    ,{
-        path: '/dictionaryForumState',
-        name: '帖子状态',
-        component: dictionaryForumState
-    }
-    ,{
-        path: '/dictionaryLajixinxi',
-        name: '垃圾类型',
-        component: dictionaryLajixinxi
-    }
-    ,{
-        path: '/dictionaryNews',
-        name: '新闻类型',
-        component: dictionaryNews
-    }
     ,{
         path: '/dictionarySex',
         name: '性别',
@@ -114,46 +68,6 @@ const routes = [{
         path: '/dictionary',
         name: '字典表',
         component: dictionary
-      }
-    ,{
-        path: '/exampaper',
-        name: '测评表',
-        component: exampaper
-      }
-    ,{
-        path: '/examquestion',
-        name: '试题表',
-        component: examquestion
-      }
-    ,{
-        path: '/examrecord',
-        name: '测试记录表',
-        component: examrecord
-      }
-    ,{
-        path: '/examredetails',
-        name: '答题详情表',
-        component: examredetails
-      }
-    ,{
-        path: '/forum',
-        name: '论坛',
-        component: forum
-      }
-    ,{
-        path: '/lajixinxi',
-        name: '垃圾信息',
-        component: lajixinxi
-      }
-    ,{
-        path: '/lajixinxiLiuyan',
-        name: '垃圾留言',
-        component: lajixinxiLiuyan
-      }
-    ,{
-        path: '/news',
-        name: '新闻信息',
-        component: news
       }
     ,{
         path: '/yonghu',
